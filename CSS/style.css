@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&family=Mooli&display=swap");
+
+ 
+body {
+     padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+    border: 2px solid #160c0c;
+}
+
+header ul {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+
+h2 {
+    padding: 0.5rem;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    padding: 0.5rem;
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    padding: auto;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.cabecalho__menu__link{
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #881111;
+}
+
+footer {
+    border: 2px solid #212121;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 0 3rem;
+    justify-content: space-between;
+    background-color: #c0b7b7;
+}
